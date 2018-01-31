@@ -1,0 +1,13 @@
+1. 가상머신 power on
+
+2. 리눅스서버 로그인(oracle/oracle)
+
+3. 새 터미널 실행
+
+4. sqlplus / as sysdba
+
+5. startup
+
+6. conn hr/hr
+
+
