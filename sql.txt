@@ -1,0 +1,156 @@
+sqlplus / as sysdba
+
+sqlplus hr/hr
+
+exit
+
+select * from employee;
+
+select * from departments;
+
+ed
+
+conn / as sysdba
+
+alter user scott account unlock;
+
+conn scott/tiger
+
+conn / as sysdba
+
+alter user scott identified by tiger account unlock;
+
+select * from tab;
+
+l
+
+!(세션에서 잠깐벗어남)
+
+sqlplus / as sysdba
+
+exit
+
+exit
+
+conn scott / tiger
+
+select * from tab;
+
+!ls(sqlplus에 들어간 위치)
+
+get emp.sql
+
+show col
+
+col empno for a7
+
+col mgr for a5
+
+col sal for a5
+
+col comm for a5
+
+col deptno for a5
+
+set linesize 100
+
+set pages 200
+
+/
+
+col empno for 9999
+
+col mgr for 9999
+e
+col sal for 9999
+
+col comm for 9999
+
+col deptno for 9999
+
+/
+
+desc emp
+
+desc dept
+
+select * from emp where empno = 7934;
+
+del 2
+
+2 where empno = 7902
+c /where
+ed
+
+desc emp
+
+conn hr/hr
+
+
+select * from e
+
+set autotrace on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
